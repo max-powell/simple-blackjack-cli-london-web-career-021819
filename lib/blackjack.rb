@@ -45,6 +45,7 @@ def hit?(current_total)
       invalid_command
     end
   end
+  display_card_total(new_total)
   new_total
 end
 
