@@ -38,8 +38,10 @@ def hit?(current_total)
     input = get_user_input
     if input == "h"
       new_total += deal_card
+      display_card_total(new_total)
       break
     elsif input == "s"
+      display_card_total(new_total)
       break
     else
       invalid_command
